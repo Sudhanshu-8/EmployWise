@@ -14,6 +14,7 @@ This project is a **User Management System** built using **React + Vite**. It al
 ✅ Toast notifications for success/error messages  
 
 ---
+🔗 **Live Demo:** [EmployWise](https://employ-wise-ruby.vercel.app/) 
 
 ## **🚀 Getting Started**  
 
@@ -93,5 +94,3 @@ The output files will be in the `dist/` folder, ready for deployment.
 6. Open a **Pull Request** 🚀  
 
 ---
-
-Now, replace `Sudhanshu-8/EmployWise` with your actual GitHub details and update as needed. Let me know if you need any modifications! 🚀🔥
