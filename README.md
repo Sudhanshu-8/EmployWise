@@ -28,7 +28,7 @@ Ensure you have the following installed on your system:
 
 1️⃣ **Clone the repository**  
 ```sh
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Sudhanshu-8/EmployWise.git
 cd your-repository
 ```
 
@@ -94,4 +94,4 @@ The output files will be in the `dist/` folder, ready for deployment.
 
 ---
 
-Now, replace `your-username/your-repository` with your actual GitHub details and update as needed. Let me know if you need any modifications! 🚀🔥
+Now, replace `Sudhanshu-8/EmployWise` with your actual GitHub details and update as needed. Let me know if you need any modifications! 🚀🔥
