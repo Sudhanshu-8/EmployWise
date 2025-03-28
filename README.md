@@ -1,5 +1,3 @@
-Here’s a **professional and well-structured README** for your React + Vite project. 🚀  
-
 ---
 
 # **User Management App (React + Vite)**  
