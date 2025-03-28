@@ -94,9 +94,4 @@ The output files will be in the `dist/` folder, ready for deployment.
 
 ---
 
-## **🔹 License**
-This project is **MIT Licensed**. Feel free to use and modify it. 😊  
-
----
-
 Now, replace `your-username/your-repository` with your actual GitHub details and update as needed. Let me know if you need any modifications! 🚀🔥
