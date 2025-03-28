@@ -1,0 +1,166 @@
+/* ✅ Users Container */
+.users-container {
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+}
+
+/* ✅ Table Styling */
+.users-table {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px; /* Prevent table from being too wide */
+    text-align: left;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.users-table th,
+.users-table td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.users-table th {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.users-table td {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* ✅ Responsive Table for Mobile */
+@media (max-width: 768px) {
+    .users-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* ✅ Center the cards */
+        width: 100%;
+    }
+
+    .users-table thead {
+        display: none; /* Hide table headers */
+    }
+
+    .users-table tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* ✅ Ensure each card is centered */
+        width: 90%; /* ✅ Adjust width to avoid full-screen stretch */
+        max-width: 400px; /* ✅ Prevent the card from being too wide */
+        margin: 10px auto; /* ✅ Center the card horizontally */
+        padding: 15px;
+        border: 1px solid white;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+    }
+
+    .users-table td {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .users-table td:last-child {
+        border-bottom: none;
+    }
+
+    .users-table img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}
+
+/* ✅ Buttons */
+.edit-btn,
+.delete-btn,
+.logout-btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background: linear-gradient(to right, #4CAF50, #66bb6a);
+    color: white;
+}
+
+.delete-btn {
+    background: linear-gradient(to right, #d9534f, #ff6b6b);
+    color: white;
+}
+
+.logout-btn {
+    background: linear-gradient(to right, #f44336, #ff5252);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+/* ✅ Adjust Button Size for Mobile */
+@media (max-width: 768px) {
+    .edit-btn, .delete-btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+/* ✅ Pagination */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    align-items: center; /* ✅ Aligns elements vertically */
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+    min-width: 80px; /* Ensures consistent button size */
+}
+
+.pagination span {
+    font-size: 16px; /* ✅ Better readability */
+    font-weight: bold;
+    min-width: 60px; /* ✅ Keeps text centered */
+    text-align: center;
+}
+
+.pagination button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.pagination button:disabled {
+    background: rgba(255, 255, 255, 0.1);
+    cursor: not-allowed;
+}
+
+/* ✅ Adjust Pagination for Mobile */
+@media (max-width: 768px) {
+    .pagination {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .pagination span {
+        font-size: 14px; /* ✅ Adjust font size for smaller screens */
+    }
+}
